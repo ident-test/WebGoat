@@ -6,7 +6,7 @@
 
 set -o pipefail
 
-SERVER_URL="https://xxxxxxxxxxxxxxxxxxx:19778"
+SERVER_URL="http://10.0.222.103:19778"
 SOURCETYPE=3
 LOGINTYPE=1
 FORCED="true"
