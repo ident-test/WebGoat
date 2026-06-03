@@ -326,7 +326,6 @@ main() {
   [[ $# -lt 1 ]] && usage
   local zip_file="$1"
   [[ -f "$zip_file" ]]       || die "File not found: $zip_file"
-  [[ "$zip_file" == *.zip ]] || die "File must be a .zip archive"
   [[ -z "$SCA_TOKEN" ]]      && die "SCA_TOKEN is not set. Set it via: export SCA_TOKEN=<your-token>"
 
   check_deps
